@@ -12,8 +12,8 @@ export default function HeroSection () {
             </div>
             <div className="md:mt-2 md:w-3/5">
                 <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Towsif Ali</h1>
-                <p className='flex flex-col items-left justify-center text-centers text-xs md:text-xl'>HK BD</p>
-                <p className='flex items-center justify-center text-center text-xl md:text-2xl'>HK BD</p>
+                <p className='justify-center text-xs md:text-xl'>HK BD</p>
+                <p className='text-xl md:text-2xl'>HK BD</p>
             </div>
         </div>
         <div>
