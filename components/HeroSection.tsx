@@ -6,14 +6,16 @@ import {Link} from 'react-scroll/modules'
 export default function HeroSection () {
   return (
     <section id="home">
-        <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+        <div className="flex flex-col text-center items-center justify-center 
+        animate-fadeIn animation-delay-2 mt-10 pt-14 sm:pt-12 md:pt-26 md:flex-row 
+        md:space-x-4 md:text-left">
             <div className='md:mt-2 md:w-1/2'>
                 <Image className='rounded-full shadow-2xl' src="/headshot.jpg" alt="Picture" width={325} height={325}/>
             </div>
-            <div className="md:mt-2 md:w-3/5">
+            <div className="md:mt-2 text-center">
                 <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Towsif Ali</h1>
-                <p className='justify-center text-xs md:text-xl'>HK BD</p>
-                <p className='text-xl md:text-2xl'>HK BD</p>
+                <p className='text-xs my-4 md:text-xl whitespace-pre'>HK  BD</p>
+                <p className='text-xl md:text-2xl'>Developer👨🏽‍💻| Videogames🎮| Football⚽</p>
             </div>
         </div>
         <div>
@@ -21,12 +23,7 @@ export default function HeroSection () {
                     Integer quam augue, pretium id purus ac, condimentum auctor dolor. Duis tellus dolor, 
                     elementum sit amet nisi eget, ultricies eleifend leo. Maecenas ultrices aliquam vehicula. 
                     Cras porttitor justo metus, ac malesuada orci tincidunt sed. Duis sit amet fermentum ipsum, 
-                    non vehicula odio. Vivamus rhoncus libero metus, quis placerat libero pharetra porttitor. 
-                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                    In hac habitasse platea dictumst. Donec ac congue tortor, quis dapibus justo. Duis fringilla 
-                    sapien id auctor cursus. Mauris non tincidunt arcu. Duis vitae augue rhoncus, pulvinar ex sed, 
-                    aliquet est. Vestibulum vel purus eu mi eleifend mollis. Sed porta consequat libero, et feugiat 
-                    augue consectetur ut. Phasellus eget eros odio.
+                    non vehicula odio.
             </p>
             <Link
                     to="projects"
