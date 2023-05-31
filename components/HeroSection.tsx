@@ -4,6 +4,19 @@ import Image from 'next/image'
 import {Link} from 'react-scroll/modules'
 
 export default function HeroSection () {
+    const DownloadResume = () => {
+        var anchor = document.createElement('a')
+        anchor.href = 'https://drive.google.com/file/d/1y4BjLzB4ffp98YCwfv5LQCqwXv_GVFo1/view?usp=sharing'
+        anchor.target = '_blank'
+        anchor.download = 'TOWSIF_RESUME'
+        anchor.click()
+    }
+    const MailToMe = () => {
+        var anchor = document.createElement('a')
+        anchor.href = 'mailto:qtali2-c@my.cityu.edu.com'
+        anchor.target = '_blank'
+        anchor.click()
+    }
   return (
     <section id="home">
         <div className="flex flex-col text-center items-center justify-center 
@@ -18,7 +31,7 @@ export default function HeroSection () {
                 <p className='text-xl md:text-2xl'>Developer👨🏽‍💻| Videogames🎮| Football⚽</p>
             </div>
         </div>
-        <div>
+        <div className="justify-center items-center ">
             <p className="text-lg mt-4 mb-6 md:text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Integer quam augue, pretium id purus ac, condimentum auctor dolor. Duis tellus dolor, 
                     elementum sit amet nisi eget, ultricies eleifend leo. Maecenas ultrices aliquam vehicula. 
@@ -27,7 +40,7 @@ export default function HeroSection () {
             </p>
             <Link
                     to="projects"
-                    className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+                    className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 m-10"
                     activeClass="active"
                     spy={true}
                     smooth={true}
@@ -35,7 +48,13 @@ export default function HeroSection () {
                     duration={500}
                 >
                     Projects
-                </Link>
+            </Link>
+            <button className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 m-10" onClick={DownloadResume}>
+              <p>Resume</p>
+            </button >
+            <button className="button text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 m-10" onClick={MailToMe}>
+              <p>Email</p>
+            </button>
         </div>
     </section>
   )
