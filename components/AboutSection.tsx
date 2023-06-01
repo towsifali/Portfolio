@@ -1,4 +1,5 @@
 import React from 'react'
+import ContentSection from './ContentSection'
 
 const skills = [
     {skill:"C/C++"},
@@ -30,7 +31,7 @@ const AboutSection = () => {
                     <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>
                         Experience
                     </h1>
-                    <p></p>
+                    <ContentSection/>
                 </div>
                 <div className='md:w-1/2'>
                     <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>
@@ -38,7 +39,7 @@ const AboutSection = () => {
                     </h1>
                     <div className='flex flex-wrap flex-row justify-center md:justify-start'>
                         {skills.map((item, idx) =>{
-                            return <p key={idx} className="bg-gray-200 px-4 py-2 mt-2 mr-2 text-gray-500 rounded font-semibold">
+                            return <p key={idx} className="bg-gray-200 px-4 py-2 mt-2 mr-2 text-gray-800 rounded font-semibold">
                                 {item.skill}
                                 </p>
                         })}

@@ -1,7 +1,7 @@
 [
     {
       "title": "Experience",
-      "content": [
+      "content": 
         {
           "heading": "Software Developer Intern",
           "subheading": "Hospital Authority",
@@ -11,16 +11,7 @@
             "Other than development i was challanged to model and design reliable data warehousing ETL storage strategies such as Slowly Changing Data (SCD) on AWS Redshift as well as ensure performance and analytic capabilites of the data were met",
             "I also took lead in solving and enhancing existing multi data-source ETL processing logic for legacy workflow as well as designed and implemented table and data structure migration solutions"
           ]
-        },
-        {
-          "heading": "Intern Developer",
-          "subheading": "Oursky Limited",
-          "date": "2021 FEB - 2021 JUN",
-          "info": [
-            "During my internship i was responsible for developing the CI/CD Test and Release pipeline for the flagship IOS Application & also implemented CloudKit Data Sync on IOS App and WatchOS Companion"
-          ]
         }
-      ]
     },
     {
       "title": "Education",
