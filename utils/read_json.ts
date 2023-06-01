@@ -1,6 +1,6 @@
 import fs from "fs";
 
-import data from "../data/section-data.json";
+import data from "../data/section-data";
 
 export type Content = {
   heading: string;

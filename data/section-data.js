@@ -1,4 +1,4 @@
-[
+const data = [
     {
       "title": "Experience",
       "content": 
@@ -7,9 +7,10 @@
           "subheading": "Hospital Authority",
           "date": "2022 JUL     -      Present",
           "info": [
-            "Under the Data team, I was responsible for engineering, developing and integrating data ETL processing pipelines using Airflow (Python), Informatica and deploying them onto AWS Ec2 as well as DynamoDB and Redshift.",
-            "Other than development i was challanged to model and design reliable data warehousing ETL storage strategies such as Slowly Changing Data (SCD) on AWS Redshift as well as ensure performance and analytic capabilites of the data were met",
-            "I also took lead in solving and enhancing existing multi data-source ETL processing logic for legacy workflow as well as designed and implemented table and data structure migration solutions"
+            "Developed a full-stack web application for handling private cloud usage and user information databases and using FastAPI, MySQL, and React.Js",
+            "Automated their weekly CPU and Memory usage report preparation using Python which helped them to identify bottlenecks in their private cloud",
+            "Ad-hoc Deployments of Microservices using Docker and Kubernetes",
+            "Used Kibana to visualize their private cloud traffic data"
           ]
         }
     },
