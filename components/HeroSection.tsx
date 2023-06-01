@@ -2,6 +2,8 @@
 import React from 'react'
 import Image from 'next/image'
 import {Link} from 'react-scroll/modules'
+import {HiArrowDown} from 'react-icons/hi'
+import {BiArrowToBottom, BiEnvelope, BiCodeAlt, BiCode} from 'react-icons/bi'
 
 export default function HeroSection () {
     const DownloadResume = () => {
@@ -20,7 +22,7 @@ export default function HeroSection () {
   return (
     <section id="home">
         <div className="flex flex-col text-center items-center justify-center 
-        animate-fadeIn animation-delay-2 mt-10 pt-14 sm:pt-12 md:pt-26 md:flex-row 
+        animate-fadeIn animation-delay-2 mt-10 pt-14 sm:pt-12 md:pt-28 md:flex-row 
         md:space-x-4 md:text-left">
             <div className='md:mt-2 md:w-1/2'>
                 <Image className='rounded-full shadow-2xl' src="/headshot.jpg" alt="Picture" width={325} height={325}/>
@@ -31,30 +33,50 @@ export default function HeroSection () {
                 <p className='text-xl md:text-2xl'>Developer👨🏽‍💻| Videogames🎮| Football⚽</p>
             </div>
         </div>
-        <div className="justify-center items-center ">
-            <p className="text-lg mt-4 mb-6 md:text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Integer quam augue, pretium id purus ac, condimentum auctor dolor. Duis tellus dolor, 
-                    elementum sit amet nisi eget, ultricies eleifend leo. Maecenas ultrices aliquam vehicula. 
-                    Cras porttitor justo metus, ac malesuada orci tincidunt sed. Duis sit amet fermentum ipsum, 
-                    non vehicula odio.
+        <div>
+            <p className="text-lg mt-4 mb-6 md:text-2xl">
+              Hi! I'm Towsif! I'm a Computer Science Student based in Hong Kong.
+              I'm interested about Tech 📺, Software Development🛠 and DevOps☁️. Im currently work in the Tech
+              Industry as a Software Dev Intern @HA
             </p>
-            <Link
+        </div>
+        <div className='text-center flex flex-row justify-center space-x-12 md:space-x-40 pb-20'>
+            <Link 
                     to="projects"
-                    className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 m-10"
+                    className="flex flex-row button text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={-100}
                     duration={500}
                 >
+                    <BiCodeAlt size={25} className="mr-0.5"/>
                     Projects
             </Link>
-            <button className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 m-10" onClick={DownloadResume}>
-              <p>Resume</p>
+            <button className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700" onClick={DownloadResume}>
+              <p className='flex flex-row'>
+                <BiArrowToBottom size={25} className="mr-0.5"/>
+                Resume 
+              </p>
             </button >
-            <button className="button text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 m-10" onClick={MailToMe}>
-              <p>Email</p>
+            <button className="button text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700" onClick={MailToMe}>
+              <p className='flex flex-row'>
+              <BiEnvelope size={25} className="mr-0.5"/>
+                Email
+                </p>
             </button>
+        </div>
+        <div className='flex flex-row justify-center'>
+            <Link
+                to="about"
+                activeClass="activate"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+            >
+                <HiArrowDown size={35} className="animate-bounce"/>
+            </Link>
         </div>
     </section>
   )
