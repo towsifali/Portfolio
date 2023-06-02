@@ -8,13 +8,13 @@ const projects = [
   {
     name: "Todo App",
     description:
-      "A simple TodoApp that is lightweight and minimal.",
+      "A simple TodoApp that is lightweight and minimal. Includes login functionality for differnet users and proper JWT Authentication.",
     image: "/TodoApp.png",
     github: "https://github.com/towsifali/TodoApp",
   },
   {
     name: "TicTacToe(A.I)",
-    description: "The classic Tic-Tac-Toe game made using C++. The game is played on the terminal and the user needs to enter the position values only. Beware, unbeatable opponent!",
+    description: "The classic Tic-Tac-Toe game made using C++ and miniMax algorithm. The game is played on the terminal and the user needs to enter the position values only. Only a draw is possible with perfect play.",
     image: "/MiniMax.png",
     github: "https://github.com/towsifali/tictactoe",
   },
