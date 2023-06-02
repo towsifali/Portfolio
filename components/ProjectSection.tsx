@@ -18,13 +18,6 @@ const projects = [
     image: "/MiniMax.png",
     github: "https://github.com/towsifali/tictactoe",
   },
-  {
-    name: "File Transfer Protocol(FTP) Client",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-  },
 ]
 
 const ProjectSection = () => {
