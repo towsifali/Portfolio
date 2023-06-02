@@ -1,5 +1,6 @@
 import React from 'react'
 import ContentSection from './ContentSection'
+import Image from 'next/image'
 
 const skills = [
     {skill:"C/C++"},
@@ -40,6 +41,9 @@ const AboutSection = () => {
                                 {item.skill}
                                 </p>
                         })}
+                    </div>
+                    <div className='mt-2 items-center'>
+                        <Image className='rounded shadow-2xl' src="/skyline.jpg" alt="Picture" width={550} height={550}/>
                     </div>
                 </div>
             </div>
