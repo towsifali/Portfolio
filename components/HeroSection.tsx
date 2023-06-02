@@ -40,10 +40,10 @@ export default function HeroSection () {
               Industry as a Software Dev Intern @HA
             </p>
         </div>
-        <div className='text-center flex flex-row justify-center space-x-2 md:space-x-40 pb-20'>
+        <div className='text-center flex flex-row justify-evenly space-x-2 md:space-x-40 pb-20'>
             <Link 
                     to="projects"
-                    className="flex flex-row ms:w-1/3 button text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+                    className="flex flex-row button text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
                     activeClass="active"
                     spy={true}
                     smooth={true}
@@ -53,13 +53,13 @@ export default function HeroSection () {
                     <BiCodeAlt size={25} className="mr-0.5"/>
                     Projects
             </Link>
-            <button className="text-neutral-100 ms:w-1/3 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700" onClick={DownloadResume}>
+            <button className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700" onClick={DownloadResume}>
               <p className='flex flex-row'>
                 <BiArrowToBottom size={25} className="mr-0.5"/>
                 Resume 
               </p>
             </button >
-            <button className="button text-neutral-100 ms:w-1/3 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700" onClick={MailToMe}>
+            <button className="button text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700" onClick={MailToMe}>
               <p className='flex flex-row'>
               <BiEnvelope size={25} className="mr-0.5"/>
                 Email
