@@ -29,7 +29,7 @@ const Footer = () => {
             {socailData.map((items,idx) =>{
                 return (
                 <div key={idx}>
-                    <a href={items.link} target="_blank" >
+                    <a href={items.link} rel="noreferrer" target="_blank" >
                         <div className='hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100'>
                             {items.name}
                         </div>
