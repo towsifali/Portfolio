@@ -6,27 +6,24 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Todo App",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "A simple TodoApp that is lightweight and minimal.",
+    image: "/TodoApp.png",
+    github: "https://github.com/towsifali/TodoApp",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "TicTacToe(A.I)",
+    description: "The classic Tic-Tac-Toe game made using C++. The game is played on the terminal and the user needs to enter the position values only. Beware, unbeatable opponent!",
+    image: "/MiniMax.png",
+    github: "https://github.com/towsifali/tictactoe",
   },
   {
-    name: "Kator Family Photos",
+    name: "File Transfer Protocol(FTP) Client",
     description:
       "Kator Family Photos is a photos and video digitization service in the LA area.",
     image: "/familyphotos.png",
     github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
   },
 ]
 
@@ -44,7 +41,7 @@ const ProjectSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={project.link}>
+                    <Link href={project.github}>
                       <Image
                         src={project.image}
                         alt=""
@@ -66,12 +63,12 @@ const ProjectSection = () => {
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link>
-                      <Link href={project.link} target="_blank">
+                      {/* <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>

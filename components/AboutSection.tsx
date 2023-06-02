@@ -6,10 +6,11 @@ const skills = [
     {skill:"C/C++"},
     {skill: "Java"},
     {skill:"Python"},
+    {skill: "GoLang"},
     {skill: "Docker"},
     {skill:"Linux"},
-    {skill: "Typescript"},
-    {skill:"Javascript"},
+    {skill: "TypeScript"},
+    {skill:"JavaScript"},
     {skill: "HTML"},
     {skill:"Tailwind CSS"},
     {skill: "React"},
@@ -18,6 +19,7 @@ const skills = [
     {skill:"Kubernetes"},
     {skill: "MySQL"},
     {skill:"FastAPI"},
+    {skill:"Ansible"},
 ]
 
 const AboutSection = () => {
@@ -43,7 +45,7 @@ const AboutSection = () => {
                         })}
                     </div>
                     <div className='mt-2 items-center'>
-                        <Image className='rounded shadow-2xl' src="/skyline.jpg" alt="Picture" width={550} height={550}/>
+                        <Image className='rounded shadow-2xl' src="/skyline.jpg" alt="HK Skyline" width={550} height={550}/>
                     </div>
                 </div>
             </div>

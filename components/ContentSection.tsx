@@ -24,7 +24,8 @@ const data = [
         "subheading": "City University of Hong Kong",
         "date": "2020 SEP     -     Present",
         "info": [
-          "Finaly Year Project (Bachelors Thesis) on Fall Detection using mmWave Radar data from household devices such as wifi routers. Utilized Python and MATLAB for analysing, cleaning and generating feature and Implemented experiments using Python with Pandas, Scikit-learn and TensorFlow Libraries to run prediction models."
+          "CGPA: 3.58",
+          "Finaly Year Project on Fall Detection using mmWave Radar data from household devices such as wifi routers. Utilized Python and MATLAB for analysing, cleaning and generating feature and Implemented experiments using Python with Pandas, Scikit-learn and TensorFlow Libraries to run prediction models."
       ]
       }
     ]
