@@ -42,14 +42,14 @@ const ContentSection = () => {
                 {texts.title}
           </h1>
           {texts.content.map((cnts,ids)=> {
-            return(<div key={ids} className="space-y-1">
+            return(<div key={ids} className="space-y-2">
               <div className="flex flex-row justify-between">
                   <div className="text-xl text-left font-semibold">{cnts.heading}</div>
                   <div className="text-xl text-right italic">{cnts.subheading}</div>
               </div>
               <p className="text-base">{cnts.date}</p>
               <div>
-                  <ul className="list-disc pb-5 space-y-1">
+                  <ul className="list-disc pb-5 space-y-2">
                      {cnts.info.map((txts,idz)=>{
                       return(
                         <li key={idz}>{txts}</li>

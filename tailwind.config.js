@@ -13,10 +13,17 @@ module.exports = {
     extend: {
       animation: {
         bounce: "bounce 0.5s alternate cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite",
+        slideUpCubiBezier: "slideUp ls cubic-bezier(0.165, 0.84, 0.44, 1)",
       },
       keyframes: {
-        from: {transform: "translateY(10px)"},
-        to: {transform: "translateY(0px)"},
+        bounce: {
+          from: {transform: "translateY(10px)"},
+          to: {transform: "translateY(0px)"},
+        },
+        slideUp: {
+          from: {transform: "translateY(100%)"},
+          to: {transform: "translateY(0)"},
+        },
       }
     },
   },
