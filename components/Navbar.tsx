@@ -62,7 +62,6 @@ export default function Navbar() {
             <div className="items-center justify-center space-y-2 md:flex md:space-x-4 md:space-y-0">
             {NAV_ITEMS.map((item, idx) => {
                 return (
-                  <button className="flex flex-col border hover:bg-neutral-500 border-stone-900 rounded py-1 px-3 dark:hover:bg-neutral-500 dark:bg-stone-800 text-white md:flex-row">
                     <Link
                       key={idx}
                       to={item.page}
@@ -78,7 +77,6 @@ export default function Navbar() {
                     >
                       {item.label}
                     </Link>
-                  </button>
                 )
               })}
               {currentTheme === "dark" ? (

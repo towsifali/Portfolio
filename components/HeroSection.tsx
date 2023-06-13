@@ -15,7 +15,7 @@ export default function HeroSection () {
     }
     const MailToMe = () => {
         var anchor = document.createElement('a')
-        anchor.href = 'mailto:qtali2-c@my.cityu.edu.com'
+        anchor.href = 'mailto:qtali2-c@my.cityu.edu.hk'
         anchor.target = '_blank'
         anchor.click()
     }
