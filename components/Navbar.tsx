@@ -59,24 +59,26 @@ export default function Navbar() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              {NAV_ITEMS.map((item, idx) => {
+            <div className="items-center justify-center space-y-2 md:flex md:space-x-4 md:space-y-0">
+            {NAV_ITEMS.map((item, idx) => {
                 return (
-                  <Link
-                    key={idx}
-                    to={item.page}
-                    className={
-                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
-                    }
-                    activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                    onClick={() => setNavbar(!navbar)}
-                  >
-                    {item.label}
-                  </Link>
+                  <button className="flex flex-col inline-block border hover:bg-neutral-500 border-stone-900 rounded py-1 px-3 dark:hover:bg-neutral-500 dark:bg-stone-800 text-white md:flex-row">
+                    <Link
+                      key={idx}
+                      to={item.page}
+                      className={
+                        "block lg:inline-block text-neutral-900 dark:text-neutral-100"
+                      }
+                      activeClass="active"
+                      spy={true}
+                      smooth={true}
+                      offset={-100}
+                      duration={500}
+                      onClick={() => setNavbar(!navbar)}
+                    >
+                      {item.label}
+                    </Link>
+                  </button>
                 )
               })}
               {currentTheme === "dark" ? (
