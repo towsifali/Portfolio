@@ -36,7 +36,7 @@ export default function HeroSection () {
         <div>
             <p className="text-lg mt-4 mb-6 md:text-2xl">
               Hi, I'm Towsif! I'm a Computer Science Student based in Hong Kong.
-              I'm interested about Tech 📺, Software Development🛠 and DevOps☁️. I'm currently work in the Tech
+              I'm interested about Tech 📺, Software Development🛠 and DevOps☁️. I'm currently working in the Tech
               Industry as a Software Dev Intern @HA
             </p>
         </div>
