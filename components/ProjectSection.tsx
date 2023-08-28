@@ -1,8 +1,8 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
@@ -14,17 +14,19 @@ const projects = [
   },
   {
     name: "FTP-Client",
-    description: "An FTP-Client written in C++ using Socket Programming. Can do Upload, Download and Retrieve(Check whether the file is available) when paired with the given server file.",
+    description:
+      "An FTP-Client written in C++ using Socket Programming. Can do Upload, Download and Retrieve(Check whether the file is available) when paired with the given server file.",
     image: "/FTPClient.png",
     github: "https://github.com/towsifali/FTP-Client",
   },
   {
     name: "TicTacToe(A.I)",
-    description: "The classic Tic-Tac-Toe game made using C++ and miniMax algorithm. The game is played on the terminal and the user needs to enter the position values only. Only a draw is possible with perfect play.",
+    description:
+      "The classic Tic-Tac-Toe game made using C++ and miniMax algorithm. The game is played on the terminal and the user needs to enter the position values only. Only a draw is possible with perfect play.",
     image: "/MiniMax.png",
     github: "https://github.com/towsifali/tictactoe",
   },
-]
+];
 
 const ProjectSection = () => {
   return (
@@ -73,11 +75,11 @@ const ProjectSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectSection
+export default ProjectSection;
