@@ -63,8 +63,10 @@ export default function HeroSection() {
           offset={-100}
           duration={500}
         >
-          <BiCodeAlt size={25} className="mr-0.5" />
-          <p>Projects</p>
+          <span>
+            <BiCodeAlt size={25} className="mr-0.5" />
+            Projects
+          </span>
         </Link>
         <button
           className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
