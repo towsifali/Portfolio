@@ -50,8 +50,7 @@ export default function HeroSection() {
         <p className="text-lg mt-4 mb-6 md:text-2xl">
           Hi, I'm Towsif! I'm a Computer Science Student based in Hong Kong. I'm
           interested about Tech 📺, Software Development🛠 and DevOps☁️. I'm
-          currently working in the Tech Industry as a Web Programmer
-          @Mpplication Ltd
+          currently working in as a Web Programmer @Mpplication Ltd
         </p>
       </div>
       <div className="text-center flex flex-row justify-evenly space-x-2 md:space-x-40 pb-20">
