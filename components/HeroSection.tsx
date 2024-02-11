@@ -9,7 +9,7 @@ export default function HeroSection() {
   const DownloadResume = () => {
     var anchor = document.createElement("a");
     anchor.href =
-      "https://drive.google.com/file/d/1y4BjLzB4ffp98YCwfv5LQCqwXv_GVFo1/view?usp=sharing";
+      "https://drive.google.com/file/d/16uKl0jUHDpfTYhtCzOnpgTBn-ULkfvq8/view?usp=sharing";
     anchor.target = "_blank";
     anchor.download = "TOWSIF_RESUME";
     anchor.click();
@@ -50,7 +50,8 @@ export default function HeroSection() {
         <p className="text-lg mt-4 mb-6 md:text-2xl">
           Hi, I'm Towsif! I'm a Computer Science Student based in Hong Kong. I'm
           interested about Tech 📺, Software Development🛠 and DevOps☁️. I'm
-          currently working in the Tech Industry as a Software Dev @BIT APP LTD
+          currently working in the Tech Industry as a Web Programmer
+          @Mpplication Ltd
         </p>
       </div>
       <div className="text-center flex flex-row justify-evenly space-x-2 md:space-x-40 pb-20">
