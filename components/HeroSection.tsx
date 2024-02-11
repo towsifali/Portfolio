@@ -20,6 +20,7 @@ export default function HeroSection() {
     anchor.target = "_blank";
     anchor.click();
   };
+
   return (
     <section id="home">
       <div
@@ -63,10 +64,8 @@ export default function HeroSection() {
           offset={-100}
           duration={500}
         >
-          <span>
-            <BiCodeAlt size={25} className="mr-0.5" />
-            Projects
-          </span>
+          <BiCodeAlt size={25} className="mr-0.5" />
+          My Projects
         </Link>
         <button
           className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
@@ -74,7 +73,7 @@ export default function HeroSection() {
         >
           <p className="flex flex-row">
             <BiArrowToBottom size={25} className="mr-0.5" />
-            Resume
+            My Resume
           </p>
         </button>
         <button
@@ -83,7 +82,7 @@ export default function HeroSection() {
         >
           <p className="flex flex-row">
             <BiEnvelope size={25} className="mr-0.5" />
-            Email
+            Email Me
           </p>
         </button>
       </div>
