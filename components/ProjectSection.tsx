@@ -13,6 +13,13 @@ const projects = [
     github: "https://github.com/towsifali/TodoApp",
   },
   {
+    name: "MERN Notes",
+    description:
+      "MERN Notes is a secure and easy-to-use note-taking app I built for learning MERN stack. It has a simple and intuitive interface along with express-session Authentication.",
+    image: "/NotesApp.jpg",
+    github: "https://github.com/towsifali/Note-app",
+  },
+  {
     name: "FTP-Client",
     description:
       "An FTP-Client written in C++ using Socket Programming. Can do Upload, Download and Retrieve(Check whether the file is available) when paired with the given server file.",

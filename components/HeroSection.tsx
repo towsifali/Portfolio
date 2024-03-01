@@ -28,13 +28,13 @@ export default function HeroSection() {
         animate-fadeIn animation-delay-2 mt-10 pt-14 sm:pt-12 md:pt-28 md:flex-row 
         md:space-x-4 md:text-left"
       >
-        <div className="md:mt-2 md:w-1/2">
+        <div className="md:mt-2 md:mr-12">
           <Image
             className="rounded-full shadow-2xl"
             src="/headshot.jpg"
             alt="Picture"
-            width={325}
-            height={325}
+            width={250}
+            height={250}
           />
         </div>
         <div className="md:mt-2 text-center">

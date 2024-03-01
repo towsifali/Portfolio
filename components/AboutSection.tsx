@@ -31,7 +31,7 @@ const educationData = [
         date: "2020 SEP     -     Present",
         info: [
           "CGPA: 3.54",
-          "Finaly Year Project on Fall Detection using mmWave Radar data. Utilized Python for analysing, cleaning and generating feature and Implemented experiments using Python with Pandas, Scikit-learn and TensorFlow Libraries to run prediction models and mainly an Recurrent Neural Networks (RNN) Model.",
+          "Finaly Year Project on Fall Detection using mmWave Radar data. Utilized Python for analysing, cleaning and generating feature and Implemented experiments using Python with Pandas, Scikit-learn and TensorFlow Libraries to run prediction models and finally an Recurrent Neural Networks (RNN) Model.",
         ],
       },
     ],
