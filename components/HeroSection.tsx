@@ -9,14 +9,14 @@ export default function HeroSection() {
   const DownloadResume = () => {
     var anchor = document.createElement("a");
     anchor.href =
-      "https://drive.google.com/file/d/16uKl0jUHDpfTYhtCzOnpgTBn-ULkfvq8/view?usp=sharing";
+      "https://drive.google.com/file/d/1f1QCxHGNi6-n1Z6DKjQWowpEad6bNrvp/view?usp=sharing";
     anchor.target = "_blank";
     anchor.download = "TOWSIF_RESUME";
     anchor.click();
   };
   const MailToMe = () => {
     var anchor = document.createElement("a");
-    anchor.href = "mailto:qtali2-c@my.cityu.edu.hk";
+    anchor.href = "mailto:ali.towsif1@gmail.com";
     anchor.target = "_blank";
     anchor.click();
   };
@@ -49,9 +49,10 @@ export default function HeroSection() {
       </div>
       <div>
         <p className="text-lg mt-4 mb-6 md:text-2xl">
-          Hi, I'm Towsif! I'm a Computer Science Student based in Hong Kong. My
-          main interests are Tech 📺, Software Development🛠 and DevOps☁️. I'm
-          currently working as a Web Programmer @Mpplication Ltd
+          Hi, I'm Towsif, a recent Computer Science graduate based in Hong Kong.
+          With a strong interest in tech 📺, Software Development 🛠 and
+          DevOps☁️. I'm currently working as a Web Programmer @Mpplication Group
+          Ltd
         </p>
       </div>
       <div className="text-center flex flex-row justify-evenly space-x-2 md:space-x-40 pb-20">
