@@ -30,7 +30,7 @@ const educationData = [
         subheading: "City University of Hong Kong",
         date: "2020 SEP     -     2024 JUN",
         info: [
-          "CGPA: 3.54",
+          "CGPA: 3.48",
           "Finaly Year Project on Fall Detection using mmWave Radar data. Utilized Python for analysing, cleaning and generating feature and Implemented experiments using Python with Pandas, Scikit-learn and TensorFlow Libraries to run prediction models and finally an Recurrent Neural Networks (RNN) Model.",
         ],
       },
