@@ -5,14 +5,18 @@ const data = [
     title: "Experience",
     content: [
       {
-        heading: "Web Programmer",
+        heading: "Software Developer",
         subheading: "Mpplication Group Limited",
         date: "2024 FEB    -      PRESENT",
         info: [
-          "Enhanced and added features and functionalities to the flagship iConference platform used by Investment Banks, ensuring seamless performance and adaptability to client needs",
-          "Engineered dynamic pages and features tailored to client specifications by integrating custom JavaScript functions and leveraging PHP-based data manipulation",
-          "Managed MySQL database operations, utilizing SQL commands and custom PHP objects/methods to fulfill specific client requests efficiently",
-          "Provided front-office customer relations and support, addressing client concerns, gathering requirements, and ensuring timely delivery of requested solutions and enhancements",
+          
+          "Led a major UI modernization for the flagship iConference platform, shipping a cleaner, more accessible front end that improved user satisfaction and reduced support queries on legacy workflows",
+
+"Built a feature-packed clinic booking system from scratch for an insurance company client, handling service creation, booking, timeslot management, conditional sub-questions, and integrations; streamlined operations and enhanced client satisfaction",
+
+"Enhanced platform features and functionalities using JavaScript libraries, PHP for data manipulation, and MySQL for database operations, ensuring seamless performance and adaptability to specific client needs while maintaining performance and data integrity",
+
+"Provided front-office client support, including requirements gathering, training sessions, and timely resolution of concerns, fostering strong customer relationships and efficient delivery of solutions",
         ],
       },
     ],
@@ -25,8 +29,7 @@ const data = [
         subheading: "BIT APP Limited",
         date: "2023 JUL    -      2023 SEP",
         info: [
-          "Worked on a full-stack tracking web application using React.js for the front end and Node.js for the backend",
-          "Worked on the front-end development, including designing and implementing user interfaces and ensuring the application’s responsiveness across devices and the backend to integrate APIs and ensure smooth data flow",
+          "Developed a full-stack tracking web application using React.js for responsive frontend interfaces and Node.js for backend API integrations, ensuring smooth data flow and cross-device compatibility.",
         ],
       },
     ],
